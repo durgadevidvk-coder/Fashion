@@ -12,8 +12,7 @@ function Cart() {
       description: "black, full length",
       price: 199.98,
       quantity: 3,
-      image:
-        sh1,
+      image: sh1,
     },
 
     {
@@ -22,8 +21,7 @@ function Cart() {
       description: "White, flower design, short",
       price: 249.0,
       quantity: 1,
-      image:
-    sh2,
+      image: sh2,
     },
   ]);
 
