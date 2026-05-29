@@ -44,7 +44,7 @@ const productsData = [
     gender: "Women",
     size: "M",
     price: 1200,
-    image: "wm1",
+    image: wm1,
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const productsData = [
     gender: "Women",
     size: "XL",
     price: 1500,
-    image: "wm2",
+    image: wm2,
   },
 
   /* MEN CASUAL */
@@ -64,7 +64,7 @@ const productsData = [
     gender: "Men",
     size: "M",
     price: 900,
-    image: "mencasual1",
+    image: mencasual1,
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ const productsData = [
     gender: "Men",
     size: "L",
     price: 1000,
-    image: "mencasual2",
+    image: mencasual2,
   },
 
   /* MEN MODERN - FIXED */
@@ -84,7 +84,7 @@ const productsData = [
     gender: "Men",
     size: "M",
     price: 1300,
-    image: "ca1",
+    image: ca1,
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ const productsData = [
     gender: "Women",
     size: "L",
     price: 1800,
-    image: "ca7",
+    image: ca7,
   },
   {
     id: 9,
@@ -102,7 +102,7 @@ const productsData = [
     gender: "Men",
     size: "XL",
     price: 2200,
-    image: "ca3",
+    image: ca3,
   },
 
   /* MEN TRADITIONAL */
@@ -113,7 +113,7 @@ const productsData = [
     gender: "Men",
     size: "XL",
     price: 2500,
-    image: "t1",
+    image: t1,
   },
   {
     id: 11,
@@ -122,7 +122,7 @@ const productsData = [
     gender: "Men",
     size: "L",
     price: 1500,
-    image: "t2",
+    image: t2,
   },
 
   /* MEN FORMALS */
@@ -133,7 +133,7 @@ const productsData = [
     gender: "Men",
     size: "M",
     price: 1400,
-    image: "f1",
+    image: f1,
   },
   {
     id: 13,
@@ -142,7 +142,7 @@ const productsData = [
     gender: "Men",
     size: "XL",
     price: 3000,
-    image: "f2",
+    image: f2,
   },
 
   /* KIDS */
@@ -153,7 +153,7 @@ const productsData = [
     gender: "Kids",
     size: "S",
     price: 700,
-    image: "km1",
+    image: km1,
   },
   {
     id: 15,
@@ -162,7 +162,7 @@ const productsData = [
     gender: "Kids",
     size: "M",
     price: 800,
-    image: "tk1",
+    image: tk1,
   },
 ];
 
