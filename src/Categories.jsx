@@ -1,7 +1,21 @@
 import React, { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import Footer from "./Footer";
-
+import ca3 from "./assets/Images/ca3.jpg";
+import ca2 from "./assets/Images/ca2.jpg";
+import wm1 from "./assets/Images/wm1.jpg";
+import wm2 from "./assets/Images/wm2.jpg";
+import mencasual1 from "./assets/Images/mencasual1.jpg";
+import mencasual2 from "./assets/Images/mencasual2.jpg";
+import ca1 from "./assets/Images/ca1.jpg";
+import ca7 from "./assets/Images/ca7.jpg";
+import ca3 from "./assets/Images/ca3.jpg";
+import t1 from "./assets/Images/t1.jpg";
+import t2 from "./assets/Images/t2.jpg";
+import f1 from "./assets/Images/f1.jpg";
+import f2 from "./assets/Images/f2.jpg";
+import km1 from "./assets/Images/km1.jpg";
+import tk1 from "./assets/Images/tk1.jpg";
 /* ---------------- PRODUCTS DATA ---------------- */
 const productsData = [
   /* WOMEN */
@@ -12,7 +26,7 @@ const productsData = [
     gender: "Women",
     size: "M",
     price: 800,
-    image: "src/assets/Images/ca3.jpg",
+    image: ca3,
   },
   {
     id: 2,
@@ -21,7 +35,7 @@ const productsData = [
     gender: "Women",
     size: "L",
     price: 2000,
-    image: "src/assets/Images/ca2.jpg",
+    image: "ca2",
   },
   {
     id: 3,
@@ -30,7 +44,7 @@ const productsData = [
     gender: "Women",
     size: "M",
     price: 1200,
-    image: "src/assets/Images/wm1.jpg",
+    image: "wm1",
   },
   {
     id: 4,
@@ -39,7 +53,7 @@ const productsData = [
     gender: "Women",
     size: "XL",
     price: 1500,
-    image: "src/assets/Images/wm2.jpg",
+    image: "wm2",
   },
 
   /* MEN CASUAL */
@@ -50,7 +64,7 @@ const productsData = [
     gender: "Men",
     size: "M",
     price: 900,
-    image: "src/assets/Images/mencasual1.jpg",
+    image: "mencasual1",
   },
   {
     id: 6,
@@ -59,7 +73,7 @@ const productsData = [
     gender: "Men",
     size: "L",
     price: 1000,
-    image: "src/assets/Images/mencasual2.jpg",
+    image: "mencasual2",
   },
 
   /* MEN MODERN - FIXED */
@@ -70,7 +84,7 @@ const productsData = [
     gender: "Men",
     size: "M",
     price: 1300,
-    image: "src/assets/Images/ca1.jpg",
+    image: "ca1",
   },
   {
     id: 8,
@@ -79,7 +93,7 @@ const productsData = [
     gender: "Women",
     size: "L",
     price: 1800,
-    image: "src/assets/Images/ca7.jpg",
+    image: "ca7",
   },
   {
     id: 9,
@@ -88,7 +102,7 @@ const productsData = [
     gender: "Men",
     size: "XL",
     price: 2200,
-    image: "src/assets/Images/ca3.jpg",
+    image: "ca3",
   },
 
   /* MEN TRADITIONAL */
@@ -99,7 +113,7 @@ const productsData = [
     gender: "Men",
     size: "XL",
     price: 2500,
-    image: "src/assets/Images/t1.jpg",
+    image: "t1",
   },
   {
     id: 11,
@@ -108,7 +122,7 @@ const productsData = [
     gender: "Men",
     size: "L",
     price: 1500,
-    image: "src/assets/Images/t2.jpg",
+    image: "t2",
   },
 
   /* MEN FORMALS */
@@ -119,7 +133,7 @@ const productsData = [
     gender: "Men",
     size: "M",
     price: 1400,
-    image: "src/assets/Images/f1.jpg",
+    image: "f1",
   },
   {
     id: 13,
@@ -128,7 +142,7 @@ const productsData = [
     gender: "Men",
     size: "XL",
     price: 3000,
-    image: "src/assets/Images/f2.jpg",
+    image: "f2",
   },
 
   /* KIDS */
@@ -139,7 +153,7 @@ const productsData = [
     gender: "Kids",
     size: "S",
     price: 700,
-    image: "src/assets/Images/km1.jpg",
+    image: "km1",
   },
   {
     id: 15,
@@ -148,7 +162,7 @@ const productsData = [
     gender: "Kids",
     size: "M",
     price: 800,
-    image: "src/assets/Images/tk1.jpg",
+    image: "tk1",
   },
 ];
 
