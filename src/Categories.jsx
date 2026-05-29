@@ -9,7 +9,7 @@ import mencasual1 from "./assets/Images/mencasual1.jpg";
 import mencasual2 from "./assets/Images/mencasual2.jpg";
 import ca1 from "./assets/Images/ca1.jpg";
 import ca7 from "./assets/Images/ca7.jpg";
-import ca3 from "./assets/Images/ca3.jpg";
+import ca4 from "./assets/Images/ca4.jpg";
 import t1 from "./assets/Images/t1.jpg";
 import t2 from "./assets/Images/t2.jpg";
 import f1 from "./assets/Images/f1.jpg";
@@ -35,7 +35,7 @@ const productsData = [
     gender: "Women",
     size: "L",
     price: 2000,
-    image: "ca2",
+    image: ca2,
   },
   {
     id: 3,
@@ -99,10 +99,10 @@ const productsData = [
     id: 9,
     title: "Modern Outfit",
     category: "Modern",
-    gender: "Men",
+    gender: "Women",
     size: "XL",
     price: 2200,
-    image: ca3,
+    image: ca4,
   },
 
   /* MEN TRADITIONAL */
