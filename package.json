@@ -3,18 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  {
-  "homepage": "https://github.com/durgadevidvk-coder/Fashion.git",
+
+  "homepage": "https://durgadevidvk-coder.github.io/Fashion",
 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-  }
-}
+  },
+
   
-  "dependencies": {
+  "dependencies":{
     "@tailwindcss/vite": "^4.3.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
