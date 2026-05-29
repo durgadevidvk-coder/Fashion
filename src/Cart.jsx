@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { FaTrash } from "react-icons/fa";
 import Footer from "./Footer";
+import sh1 from "./assets/Images/sh1.jpg";
+import sh2 from "./assets/Images/sh2.jpg";
 
 function Cart() {
   const [cartItems, setCartItems] = useState([
@@ -11,7 +13,7 @@ function Cart() {
       price: 199.98,
       quantity: 3,
       image:
-        "./src/assets/Images/sh1.jpg",
+        sh1,
     },
 
     {
@@ -21,7 +23,7 @@ function Cart() {
       price: 249.0,
       quantity: 1,
       image:
-        "./src/assets/Images/sh2.jpg",
+    sh2,
     },
   ]);
 
